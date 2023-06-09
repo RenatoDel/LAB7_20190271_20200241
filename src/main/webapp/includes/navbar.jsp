@@ -13,10 +13,10 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link <%=request.getParameter("page").equals("jugadores")? "active": "" %>" href="<%=request.getContextPath()%>/listaTours">Tours</a>
+                <a class="nav-link <%=request.getParameter("page").equals("jugadores")? "active": "" %>" href="<%=request.getContextPath()%>/JugadorServlet">Jugadores</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link <%=request.getParameter("page").equals("selecciones")? "active": "" %>" href="<%=request.getContextPath()%>/listaBandas">Bandas</a>
+                <a class="nav-link <%=request.getParameter("page").equals("selecciones")? "active": "" %>" href="<%=request.getContextPath()%>/JugadorServlet">Selecciones</a>
             </li>
 
         </ul>

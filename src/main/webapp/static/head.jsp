@@ -1,9 +1,4 @@
-<%--
 
-  NO TOCAR!
-
-
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -15,6 +10,7 @@
     <style>
         body {
             background-color: #131212
+            /*background-color: #131212*/
         }
 
         .container {
