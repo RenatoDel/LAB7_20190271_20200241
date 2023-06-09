@@ -9,7 +9,7 @@ import java.util.ArrayList;
 public class JugadorDao extends BaseDao{
 
 
-    /*Lista jugadores*/
+    /**Lista jugadores**/
     public ArrayList<Jugador> listarJugador(){
 
         ArrayList<Jugador> lista = new ArrayList<>();
@@ -43,6 +43,7 @@ public class JugadorDao extends BaseDao{
         return lista;
     }
 
+    /**Guardar form**/
     public void guardarJugador(Jugador jugador){
         String sql = "INSERT INTO jugador (nombre, edad, posicion, club, sn_idSeleccion) "
                 + "VALUES (?, ?, ?, ?, ?)";

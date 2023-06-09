@@ -16,7 +16,7 @@
                 <a class="nav-link <%=request.getParameter("page").equals("jugadores")? "active": "" %>" href="<%=request.getContextPath()%>/JugadorServlet">Jugadores</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link <%=request.getParameter("page").equals("selecciones")? "active": "" %>" href="<%=request.getContextPath()%>/JugadorServlet">Selecciones</a>
+                <a class="nav-link <%=request.getParameter("page").equals("selecciones")? "active": "" %>" href="<%=request.getContextPath()%>/SeleccionServlet">Selecciones</a>
             </li>
 
         </ul>

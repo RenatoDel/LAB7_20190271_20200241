@@ -5,7 +5,7 @@ public class Seleccion {
     private int idSeleccion;
     private String nombre;
     private String tecnico;
-    private int idEstadio;
+    private Estadio Estadio;
 
     public int getIdSeleccion() {
         return idSeleccion;
@@ -31,11 +31,11 @@ public class Seleccion {
         this.tecnico = tecnico;
     }
 
-    public int getIdEstadio() {
-        return idEstadio;
+    public com.example.lab7.Models.Beans.Estadio getEstadio() {
+        return Estadio;
     }
 
-    public void setIdEstadio(int idEstadio) {
-        this.idEstadio = idEstadio;
+    public void setEstadio(com.example.lab7.Models.Beans.Estadio estadio) {
+        Estadio = estadio;
     }
 }
